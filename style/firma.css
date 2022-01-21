@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'BentonSansBBVA-Bold';
+    src: url(../assets/fonts/BentonSansBBVA-Bold.otf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'BentonSansBBVA-Book';
+    src: url(../assets/fonts/BentonSansBBVA-Book.otf);
+}
+@font-face {
+    font-family: 'BentonSansBBVA-Medium';
+    src: url(../assets/fonts/BentonSansBBVA-Medium.otf);
+    font-weight: 100;
+}
+
+*{
+    margin: 0;
+}
+.main_container{
+    width: 100%;
+    padding: 60px 130px;
+    box-sizing: border-box;
+}
+
+.main_container__content{
+    display: flex;
+}
+
+.main_container__content-logos{
+    display: flex;
+    flex-direction: column;
+    padding-right: 160px;
+}
+
+.openPay{
+    margin-bottom: 85px;
+}
+
+.name{
+    color: #004480;
+    font-size: 38px;
+    padding-bottom: 15px;
+    font-family: 'BentonSansBBVA-Bold';
+}
+
+.job{
+    color: #13c7bd;
+    font-size: 22px;
+    padding-bottom: 30px;
+    font-family: 'BentonSansBBVA-Medium';
+}
+
+p{
+    color: #004480;
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-family: 'BentonSansBBVA-Book';
+}
+
+.main_container__content-user{
+    width: 100%;
+}
+.main_container__content-user div{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
